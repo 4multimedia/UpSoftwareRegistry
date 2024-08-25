@@ -1,0 +1,24 @@
+{
+    "name": "upsoftware/registry",
+    "require": {
+        "gusapi/gusapi": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Upsoftware\\Registry\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "UpSoftware",
+            "email": "info@uposftware.tech"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Upsoftware\\Registry\\Providers\\RegistryServiceProvider"
+            ]
+        }
+    }
+}

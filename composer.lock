@@ -1,0 +1,80 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "1eb844009ec9b480c833f53f83fcb12e",
+    "packages": [
+        {
+            "name": "gusapi/gusapi",
+            "version": "6.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/johnzuk/GusApi.git",
+                "reference": "76b82aef491b9a388f063b2e4586323bf68fc441"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/johnzuk/GusApi/zipball/76b82aef491b9a388f063b2e4586323bf68fc441",
+                "reference": "76b82aef491b9a388f063b2e4586323bf68fc441",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "ext-simplexml": "*",
+                "ext-soap": "*",
+                "php": "^8.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^3.11",
+                "phpstan/phpstan": "^1.8",
+                "phpstan/phpstan-phpunit": "^1.1",
+                "phpunit/phpunit": "^9.0",
+                "rector/rector": "^0.14.6",
+                "squizlabs/php_codesniffer": "^3.7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "GusApi\\": "src/GusApi/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-2.1-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Janusz Żukowicz",
+                    "email": "janusz.zukowicz@gmail.com"
+                }
+            ],
+            "description": "Gus Api Library for PHP",
+            "keywords": [
+                "CEIDG",
+                "GUS",
+                "api",
+                "krs",
+                "library",
+                "nip",
+                "regon",
+                "soap"
+            ],
+            "support": {
+                "issues": "https://github.com/johnzuk/GusApi/issues",
+                "source": "https://github.com/johnzuk/GusApi/tree/6.2.0"
+            },
+            "time": "2023-10-09T09:14:44+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}
